@@ -73,24 +73,4 @@ def product_pricing(json: list, product_db: dict) -> tuple:
     return json, product_db
 
 
-def df_to_all_df(json, all_df):
-    for transacao in json:
-        json_to_df = deepcopy(transacao)
-        date = json_to_df['date']
-        id = json_to_df['id']
-        del json_to_df['date']
-        del json_to_df['id']
-        df = pd.DataFrame(json_to_df).T
-        df['id'] = id
-        df['date'] = date
-        df = pd.concat([all_df, df])
-   
-    return df
-
-def format_all_df(all_df:pd.DataFrame):
-    all_df=all_df.reset_index().rename(columns={'index':'product'}).set_index('id').reset_index()
-    all_df['qnt'] = [float(item[0]) for item in all_df['qnt']]
-    return all_df
-
-
 

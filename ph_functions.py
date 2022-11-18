@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-# FUNÇÃO FEITA PELA YANA QUE É UTILIZADA EM UMA DAS FUNÇÕES
+# FIRST FUNCTION WAS MADE BY YANA
 def df_to_analysis(all_jsons: list, column_name: str):
     new_json = {}
     n = 0

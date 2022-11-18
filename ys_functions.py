@@ -54,16 +54,16 @@ def balance_product(df):
         list.append(df.loc[row].sum())
     return list
 
-def calc_ratio(all_prices:dict, dict_dfs:dict, period: str, variable:str, unity_of_period:str):
+def calc_ratio(all_prices:pd.DataFrame, dict_dfs:dict, period: str, variable:str, unity_of_period:str):
     num_transactions = len(all_prices[all_prices[period]==unity_of_period])
     balance = dict_dfs[period][variable].loc[unity_of_period,'balance']
     ratio = balance/num_transactions
     return ratio
 
-def join_all_ratios(monthly_price:dict, dict_dfs:dict, period:str, variable: str, report:bool):
+def join_all_ratios(teste:str,all_prices:pd.DataFrame, monthly_price:dict, dict_dfs:dict, period:str, variable: str, report:bool):
     all_ratios = []
     for unity in dict_dfs[period][variable].index:
-        ratio = calc_ratio(dict_dfs=dict_dfs,period=period,variable=variable, unity_of_period=unity)
+        ratio = calc_ratio(all_prices=all_prices, dict_dfs=dict_dfs,period=period,variable=variable, unity_of_period=unity)
         all_ratios.append(ratio)
     if report:
         return all_ratios

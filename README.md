@@ -1,4 +1,5 @@
-# eda_exportating_company
+# Data Analytics Using Pandas
+
 This repository was made to the third project of the Program Diversidade Tech, offered by Ada with Suzano. The objetive is to explory and analyze data 
 of a fictional exporting company.
 

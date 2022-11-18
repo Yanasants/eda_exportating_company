@@ -8,6 +8,6 @@ project of the third module of the Program Diversidade Tech, of Data Analytics, 
 
 ##### The objetive is to load data from an API created by the teacher Thiago Medeiros, treat the data and analyze it using Pandas functions.
 
-#### Flowchart of the work:
+#### Flowchart of the work (by Lucas Andrade):
 
 ![Flowchart](https://user-images.githubusercontent.com/59098432/202789750-2c5ea7a4-bdba-4e36-9515-8cc32bdc0ee2.png)

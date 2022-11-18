@@ -25,8 +25,6 @@ def df_to_analysis(all_jsons:list, column_name:str):
             new_json[n]['week'] = f'Week {week+1}'
             new_json[n]['month']=all_jsons[week][transaction]['date']
             new_json[n]['id'] = all_jsons[week][transaction]['id']
-            #for i in range(0,21):
-                #new_json[n][f'prod_{i}'] = 0
             for key in all_jsons[week][transaction]:
                 if ('prod' in key):
                     if (type(all_jsons[week][transaction][key][column_name])==list): #teste

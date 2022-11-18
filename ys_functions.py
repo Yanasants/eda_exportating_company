@@ -40,7 +40,6 @@ def df_to_analysis(all_jsons:list, column_name:str):
     df['date'] = pd.to_datetime(df['date']).dt.date
     df['month'] = pd.to_datetime(df['month']).dt.month_name()
     df=df.fillna(0)
-
     return df
 
 def consolidate(df_qnt:pd.DataFrame, df_price:pd.DataFrame, df_consolidate:pd.DataFrame):

@@ -23,4 +23,6 @@ It's possible to observe that there is a significant irregularity between the qu
   <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203858398-2192e933-778a-459a-9b2c-f88cf999a019.png">
 </p>
 
-As indicated, the number of requests on the month that sold products in the most is three times larger than the number of requests on the month that 
+As indicated, the number of requests in June is three times larger than the number of requests in May. Futhermore, it must be analyzed if there is variation of the quantity of products between the requests. This observation must be done normalizing the quantity of products on each request by the number of requests.
+
+

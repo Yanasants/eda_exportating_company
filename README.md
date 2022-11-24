@@ -51,6 +51,8 @@ Checking the consolidated value (quantity x price) per type, the result is prese
   <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203863544-ca7744b0-a039-4fd3-b95f-54d5f52c3878.png">
 </p>
 
+This way, even though the prices of unity type products are highest, because of the high quantity of kg type products, the biggest part of the total sales amount of the company is due the kg ones. 
+
 
 
 

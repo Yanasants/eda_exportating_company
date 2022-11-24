@@ -36,3 +36,23 @@ The company sells two types of products, the ones sold by kg and the other ones 
 <p align="center">
   <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203861565-84c10351-249d-4aff-abcb-4471e100ebb5.png">
 </p>
+
+As indicated, the quantity of products of kg type is more than 5 times larger than the quantity of unity type ones. But what about the sales amount per type?
+
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203862461-a9414203-f9fe-47af-8ed7-3399febb6545.png">
+</p>
+
+Otherwise, in terms of sales amount, the products of unity type have reached an amount bigger than the double of the amount of kg type products, although the quantity of the kg ones is significantly larger. Therefore, it's plausible to assert that the prices of unity type products are too much higher than the other ones. 
+
+Checking the consolidated value (quantity x price) per type, the result is presented below.
+
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203863544-ca7744b0-a039-4fd3-b95f-54d5f52c3878.png">
+</p>
+
+
+
+
+
+

@@ -25,4 +25,14 @@ It's possible to observe that there is a significant irregularity between the qu
 
 As indicated, the number of requests in June is three times larger than the number of requests in May. Futhermore, it must be analyzed if there is variation of the quantity of products between the requests. This observation must be done normalizing the quantity of products on each request by the number of requests.
 
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203860894-7d28e51e-bd61-4a5e-98a1-d5aae249a6aa.png">
+</p>
 
+The graph shows a constancy on the quantity of products on the requests. Therefore, the difference of the quantities during the months ocurrs only because of the frequency of the requests. 
+
+The company sells two types of products, the ones sold by kg and the other ones sold by unity. Comparing the quantity of products sold by type:
+
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203861565-84c10351-249d-4aff-abcb-4471e100ebb5.png">
+</p>

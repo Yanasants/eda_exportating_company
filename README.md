@@ -11,3 +11,16 @@ project of the third module of the Program Diversidade Tech, of Data Analytics, 
 
 <h1 align="center">Analysis by Yana Santos</h1>
 
+The company's data were observed during a period of one year. The quantity of sold products on each month is presented as below.
+
+<p align="center">
+  <img width="700" height="300" src="https://user-images.githubusercontent.com/59098432/203857895-6d5e3138-eb89-4a8d-afd6-e4a6dff65304.png">
+</p>
+
+It's possible to observe that there is a significant irregularity between the quantities between the months. This difference must be investigated. Focusing on the month with the highest quantities of sold products (June) and the lowest one (May), the number of requests on each month may be analyzed. 
+
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/59098432/203858398-2192e933-778a-459a-9b2c-f88cf999a019.png">
+</p>
+
+As indicated, the number of requests on the month that sold products in the most is three times larger than the number of requests on the month that 
